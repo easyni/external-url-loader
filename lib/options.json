@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "packageName": {
+            "type": "string"
+        },
+        "active": {
+            "type": "boolean"
+        },
+        "extractCss": {
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": true
+}
