@@ -10,7 +10,7 @@ A loader for webpack that permit static's usage as [externals](https://webpack.j
 
 The loader will generate a path with a `require` that make reference to the `packageName` you specify.
 
-This is use full when you want to create a library that use statics dependencies.
+This is useful when you want to create a library that use statics dependencies.
 
 ---
 
@@ -37,7 +37,7 @@ module.exports = {
                 test: /\.(png||jpe?g|gif|svg)$/i,
                 use: [
                     {
-                        loader: ' external-url-loader',
+                        loader: 'external-url-loader',
                         options: {
                             limit: 8192, // url-loader limit
                             packageName: 'library-package-name', // your package name
@@ -113,7 +113,7 @@ module.exports = {
                 issuer: /\.(css|scss|less)$/i,
                 use: [
                     {
-                        loader: ' external-url-loader',
+                        loader: 'external-url-loader',
                         options: {
                             limit: 8192,
                             packageName: 'library-package-name', // your package name.
