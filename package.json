@@ -1,6 +1,6 @@
 {
   "name": "external-url-loader",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "A loader for webpack that permit static's usage as externals",
   "main": "./dist/external-url-loader.js",
   "repository": "https://github.com/easyni/external-url-loader",
