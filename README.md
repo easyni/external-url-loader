@@ -6,7 +6,7 @@
 
 # External-url-loader
 
-A loader for webpack that permit static's usage as [externals](https://webpack.js.org/configuration/externals/#root) that make reference to your own package. If those statics exceed the `limit` size you specify, it will be encoded in base64.
+A loader for webpack that permit static's usage as [externals](https://webpack.js.org/configuration/externals/#root) that make reference to your own package. If those statics not exceed the `limit` size you specify, it will be encoded in base64.
 
 The loader will generate a path with a `require` that make reference to the `packageName` you specify.
 
