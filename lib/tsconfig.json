@@ -1,25 +1,23 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "jsx": "react",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
+    "declaration": true,
     "downlevelIteration": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
     "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "../dist",
+    "pretty": true,
+    "resolveJsonModule": true,
+    "strict": true,
     "target": "es2017",
     "lib": [
       "es5",
       "es6",
       "es7",
       "esnext"
-    ],
-    "outDir": "../dist",
-    "declarationDir": "../dist",
-    "declaration": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "pretty": true
+    ]
   }
 }
