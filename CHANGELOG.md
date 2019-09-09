@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.1.0-alpha.3](https://github.com/easyni/external-url-loader/compare/v0.1.0-alpha.2...v0.1.0-alpha.3) (2019-09-09)
+
+
+### Features
+
+* update dependencies && typescript strict ([09fb1bf](https://github.com/easyni/external-url-loader/commit/09fb1bf))
 
 <a name="0.1.0-alpha.2"></a>
 # [0.1.0-alpha.2](https://github.com/easyni/external-url-loader/compare/v0.1.0-alpha.1...v0.1.0-alpha.2) (2019-03-20)
