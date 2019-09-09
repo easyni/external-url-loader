@@ -17,7 +17,7 @@
     "pub": "yarn build && yarn release --first-release && yarn publish",
     "pub:quick": "yarn build && yarn publish",
     "pub:alpha": "yarn build && yarn release -- --prerelease alpha && yarn publish",
-    "pub:beta": "yarn build && yarn release -- --prerelease alpha && yarn publish",
+    "pub:beta": "yarn build && yarn release -- --prerelease beta && yarn publish",
     "pub:dev": "yarn build && yarn release -- --prerelease dev && yarn publish",
     "lint": "tslint --project lib/tsconfig.json -c tslint.json 'lib/**/*.ts*'",
     "changelog": "yarn standard-version -f"
