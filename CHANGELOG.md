@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [0.1.0-alpha.3](https://github.com/easyni/external-url-loader/compare/v0.1.0-alpha.2...v0.1.0-alpha.3) (2019-09-09)
+## [0.1.0-alpha.5](https://github.com/easyni/external-url-loader/compare/v0.1.0-alpha.4...v0.1.0-alpha.5) (2019-09-09)
+
+
+### Bug Fixes
+
+* fix pub:beta command ([6a64e4b](https://github.com/easyni/external-url-loader/commit/6a64e4b))
+* lint error ([31724f5](https://github.com/easyni/external-url-loader/commit/31724f5))
+
+## [0.1.0-alpha.4](https://github.com/easyni/external-url-loader/compare/v0.1.0-alpha.2...v0.1.0-alpha.4) (2019-09-09)
 
 
 ### Features
